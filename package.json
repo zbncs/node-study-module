@@ -1,0 +1,23 @@
+{
+  "name": "node-study-module",
+  "version": "1.0.0",
+  "description": "学习node模块",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbncs/node-study-module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbncs/node-study-module/issues"
+  },
+  "homepage": "https://github.com/zbncs/node-study-module#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.9"
+  }
+}
