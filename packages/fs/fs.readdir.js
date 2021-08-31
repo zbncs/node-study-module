@@ -13,3 +13,14 @@ fs.readdir(public, 'utf-8', function(err, data) {
         console.log(222, data) // [ 'file.txt', 'fs.md' ]
     }
 })
+
+// 
+
+
+// withFileTypes 读取文件夹里所有的所有文件
+fs.readdir('./www/', {withFileTypes: true}, (err, files) => {
+    for (let file of files) {
+        console.log(file.isDirectory())
+    }
+})
+
