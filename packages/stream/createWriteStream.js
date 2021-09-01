@@ -12,7 +12,7 @@ const writeStream = fs.createWriteStream('./asset/write.txt');
 writeStream.write(str);
 
 // 标记写入完成，用来出发完成事件
-writeStream.end();
+writeStream.end('sdf');
 
 writeStream.on('finish', function() {
     console.log('写入完成了')
