@@ -4,10 +4,14 @@
  
 const path = require('path');
 
+const delimiter1 = path.delimiter
+
+console.log(1212, delimiter1)
+
 const paths = process.env.PATH;
 const pathArr = paths.split(path.delimiter);
 
-console.log(11, paths, pathArr);
+// console.log(11, paths, pathArr);
 
 
 

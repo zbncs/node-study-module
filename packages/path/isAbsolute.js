@@ -6,9 +6,11 @@ const isAbsolute1 = path.isAbsolute('./a/c');
 const isAbsolute2 = path.isAbsolute('/a/c');
 const isAbsolute3 = path.isAbsolute('.');
 const isAbsolute4 = path.isAbsolute('a/c');
+const isAbsolute5 = path.isAbsolute('foo');
+const isAbsolute6 = path.isAbsolute('///foo');
 
 console.log(1234, isAbsolute1, isAbsolute2, isAbsolute3, isAbsolute4);
-
+console.log(222, isAbsolute5, isAbsolute6)
 // windows
 
 // const isAb1 = path.isAbsolute('//a');
