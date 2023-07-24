@@ -9,6 +9,6 @@ http.createServer(function (req, res) {
     res.write('哈哈哈😂')
     // 结束响应，参数写入页面
     res.end('Hello World');
-}).listen(8081);
-
-console.log('Server running at http://127.0.0.1:8081/');
+}).listen(8081, (err) => {
+    console.log('Server running at http://127.0.0.1:8081/');
+});
