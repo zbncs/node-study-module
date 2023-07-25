@@ -2,5 +2,5 @@
     "compilerOptions": {
       "types": ["node"]
     },
-    "include": ["packages"],
+    "include": ["node-base-packages"],
 }
