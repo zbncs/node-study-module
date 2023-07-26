@@ -19,5 +19,9 @@
   "homepage": "https://github.com/zbncs/node-study-module#readme",
   "devDependencies": {
     "@types/node": "^17.0.45"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0"
   }
 }
